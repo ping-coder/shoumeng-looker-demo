@@ -2,6 +2,7 @@ connection: "demo"
 
 # include all the views
 include: "/views/**/*.view.lkml"
+include: "//ga_block/**/*.view"
 
 datagroup: demo_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
