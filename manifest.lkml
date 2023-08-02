@@ -11,3 +11,16 @@ remote_dependency: ga_block {
   url: "https://github.com/llooker/gaming_analytics_block.git"
   ref: "master"
 }
+
+################# Constants ################
+
+## Used in gaming_analytics_block.model connection param
+constant: CONNECTION_NAME {
+  value: "demo"
+  export: override_required
+}
+
+constant: events_table {
+  value: "looker-demo-gaming.gaming.gaming_events_202302"
+  export: override_required
+}
