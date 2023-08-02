@@ -9,3 +9,7 @@ datagroup: demo_default_datagroup {
 }
 
 persist_with: demo_default_datagroup
+
+explore:  gaming_events_202302{
+  label: "Gaming Events"
+}
